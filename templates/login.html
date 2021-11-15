@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content%}
+   <form action='/submit',method='post'>
+       username:<input type="text" name="nm"/>
+       <br><br>
+       password:<input type="password" name='passwd'/>
+       <br><br>
+       <input type="submit" value="submit"/>
+   </form>
+{%endblock%}
+	
